@@ -1,0 +1,82 @@
+:root{
+    --tamanho-da-font:1.4rem;
+    --cor-da-font:white;
+    --cor-da-font-b:rgba(14, 77, 94, 0.7);
+    --raio-borda:1em;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient( 135deg, #9d79f1 10%, #950ead 100%);
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.destaque{
+    font-weight: 900;
+    font-size: 2.5em;
+}
+
+.imagem{
+    height: 180px;
+    border-radius: 50%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.campo{
+    align-items: center;
+    font-size: var(--tamanho-da-font);
+    margin-bottom: 1rem;
+}
+.entrada{
+    outline: none;
+    padding: 0.5rem 1rem;
+    margin: 0 1.5rem;
+    font-size: var(--tamanho-da-font);
+    color: var(--cor-da-font-b);
+    border-radius: var(--raio-borda);
+    border: solid 1px rgba(241, 121, 121, 0.4);
+    background-color: rgb(14, 92, 173);
+    background-color: rgba(14, 92, 173, 0.2);
+}
+.botao{
+    background-color: #0E4D5E;
+    background-color: rgb(14, 77, 94);
+    background-color: rgba(14, 77, 94, 0.4);
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    border: none;
+    color: var(--cor-da-font);
+    font-size: var(--tamanho-da-font);
+    cursor: pointer;
+}
+
+.invisivel{
+    display: none;
+}
+#result{
+    font-weight: 700;
+    font-size: var(--tamanho-da-font);
+    text-transform: uppercase;
+    padding: 1.2rem 2.5rem;
+    border: solid 1px #0E4D5E;
+    border-radius: var(--raio-borda);
+    background-color: #0E4D5E;
+    background-color: rgb(14, 77, 94);
+    background-color: rgba(14, 77, 94, 0.4);
+}
